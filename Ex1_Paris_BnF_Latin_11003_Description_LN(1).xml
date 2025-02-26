@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE TEI 
+[
+<!ENTITY % menota_entities SYSTEM 'menota_entities.txt'>
+%menota_entities; ]>
+
+<?xml-model href="out/Factoid.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/Factoid.odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title>France, Paris, Bibliothèque nationale de France, Latin 11003</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>
+               <persName>
+                  <forename>NABIAS</forename>
+                  <surname>Laurent</surname>
+                  <email>laurent.nabias@gmail.com</email>
+                  <affiliation>University of Sorbonne Nouvelle, University of Paris Nanterre</affiliation>
+                  <idno type="ORCID">0000-0001-8477-0034</idno>
+               </persName>
+            </authority>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Distributed under a
+                  Cretive Commons Attribution-NonCommercial 4.0 International (CC BY-NC
+                  4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Ms-Paris-BNF-Lat-11003">
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository xml:lang="fr">Bibliothèque nationale de France</repository>
+                  <idno>Latin 11003</idno>
+               </msIdentifier>
+               <msContents>
+                  <!-- First fragment of manuscript -->
+                  <summary>Fragment 1 - Cartulaire de l'abbaye de Chaalis fol. 73v -74</summary>
+                  <msItem n="1" class="fragment" defective="false">
+                     <locus from="73v" to="74v°"/>
+                     <author xml:lang="fr">Prevost</author>
+                     <title type="uniform" xml:lang="fr">Cartulaire de l'abbaye de Chaalis</title>
+                     <textLang mainLang="la"/>
+                     <bibl> 
+                        «  Cartulaire de l'abbaye Notre-Dame de Chaalis, Chartularium monasterii Caroli Loci (Regestes) », 
+                        dans IRHT-section de diplomatique (éd.), RegeCart, regestes de cartulaires, Paris, CNRS-IRHT, 2015 
+                        [en ligne : http://regecart.irht.cnrs.fr/dossier-137-R1/ms-0117]
+                     </bibl>
+                     
+                     <msItem n="118" class="chart" defective="false">
+                        <!-- First charter number 118 in the first fragment  -->
+                        <locus from="74v°" to="74v°"/>
+                        <title type="supplied"> Charter number 118</title>
+                        <rubric>De tribus deneriis census quictatis quos debebat Clausum de Verrone</rubric>
+                        <incipit> </incipit>
+                        <explicit> </explicit>
+                        <finalRubric> </finalRubric>
+                        <textLang mainLang="la"/>
+                        <bibl>BnF ms. Lat 11003 n°118
+                           Analysis number 114 on the website regest pages 26-27 on IHRT : https://regecart.irht.cnrs.fr/dossier-137-R1/ms-0117</bibl>
+                     </msItem>
+                     <msItem n="119" defective="false">
+                        <!-- Second charter number 119 in the first fragment  -->
+                        <locus from="73v" to="74">74</locus>
+                        <title type="supplied">Charter number 119</title>
+                        <rubric>Quod Maria et filii eii sororum Ysabellis uxorum domini Odonis de Gonessa quitaverint nobis quicquid reclamabit Eiscopi in clauso de Verrone</rubric>
+                        <incipit>   </incipit>
+                        <explicit>  </explicit>
+                        <finalRubric> </finalRubric>
+                        <textLang mainLang="la"/>
+                        <bibl>BnF ms. Lat 11003 n°119
+                           Analysis number 115 on the website regest page 27 IHRT : http://regecart.irht.cnrs.fr/dossier-137-R1/regeste-140-0117</bibl>
+                     </msItem>
+                     <msItem n="120" defective="false">
+                        <!-- Third charter number 120 in the first fragment  -->
+                        <locus from="74" to="74">74</locus>
+                        <title type="supplied">Charter numbr 120</title>
+                        <rubric>IDomini Philippi de Villa nova</rubric>
+                         <textLang mainLang="lat"/>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="42"/>
+                           <num type="end-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="175"/>
+                              <width unit="mm" quantity="135"/>
+                           </dimensions>
+                        </support>
+                        <foliation>400 fol. </foliation>
+                        <collation></collation>
+                        <condition> </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="24">
+                           <dimensions type="written">
+                              <height unit="mm" quantity="120"/>
+                              <width unit="mm" quantity="80"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote script="gothic-textura">The manuscript is written in gothic textura
+                        by a single hand, <name type="person" role="scribe">Pantaleon da
+                           Crema</name>.</handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote type="paragraphMark">There are paragraph marks in red signalling the
+                        beginning of sentences throughout the manuscript.</decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>These marginal notes are either analysis titles that appear mainly from folio 115 onwards, that is, 
+                        when the rubricated titles preceding the transcription of acts or analyses disappear.
+                        These analysis titles are sometimes reduced to a single word such as "Admortizatio" or "Admortizatio generalis" or "quittatio" or "excambium", 
+                        or such as subject keywords as "garenna", "decima", "pasture", or such geographical names, or the value of the annuity.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="true">
+                        <p>Red morocco binding with Louis-Philippe's cipher, Tripier-Bradel June 6, 1845</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1317" notAfter="1400">This cartulary inventory was composed of a single hand in the first quarter of the 14th century, probably shortly after 1317.</origDate>
+                     <origPlace cert="high"><name type="place">Chaalis</name>, France.</origPlace>
+                  </origin>
+                  <provenance> Most of the analyzes are very probably in the hand of a monk from the abbey who collated the contents of this cartulary with the originals which were undoubtedly located in Chaalis.</provenance>
+                  <acquisition>The manuscript was acquired by the Bibliothèque nationale de France in Paris in 1832.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>First catalogued on <date when="1832">1832</date> as a part of cartularies of the imperial library </source>
+                        <change>Catalogued updated as a part of Suppl.1 n°541</change>
+                        <change>Catalogued updated as a part of latin fond (LAT) and named LAT 11003</change>
+                     </recordHist>
+                  </adminInfo>
+                  <surrogates>
+                     <p>A facsimile of the manuscript is available on 
+                        <ref type="url" target="https://gallica.bnf.fr/ark:/12148/btv1b53164669h">Gallica</ref>.
+                     </p>
+                  </surrogates>
+                  <listBibl>
+                     <head>Works consulted</head>
+                     <bibl>
+                        «  Cartulaire de l'abbaye Notre-Dame de Chaalis, Chartularium monasterii Caroli Loci (Regestes) », 
+                        dans IRHT-section de diplomatique (éd.), RegeCart, regestes de cartulaires, Paris, CNRS-IRHT, 2015 
+                        [en ligne : http://regecart.irht.cnrs.fr/dossier-137-R1/ms-0117]
+                     </bibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+           <listPerson>
+              <person xml:id="ADA-01">
+                 <persName>
+                    <forename>Adam </forename>
+                    <nameLink>of</nameLink>
+                    <surname>Chambly</surname>
+                    <roleName>bishop of Senlis</roleName>
+                  </persName>              
+               </person>
+          <person>
+             <persName xml:id="GUI-00">
+                <forename>Guillaume </forename>
+                <nameLink>of</nameLink>
+                <surname>Dammartin</surname>
+                <roleName>clerc</roleName>
+             </persName> 
+          </person>
+          <person>
+             <persName xml:id="HUB-01">
+                <forename>Hubert </forename>
+                <nameLink>of</nameLink>
+                <surname>Dammartin</surname>
+                <roleName></roleName>
+             </persName> 
+          </person>
+              <person>
+                 <persName xml:id="GUI-01">
+                    <forename>Guillaume </forename>
+                    <nameLink></nameLink>
+                    <surname></surname>
+                    <roleName>clerc</roleName>
+                 </persName> 
+              </person>
+          <person>
+             <persName xml:id="EUD-01">
+                <forename>Eudes</forename>
+                <nameLink>of</nameLink>
+                <surname>Gonesse</surname>
+                <roleName></roleName>
+             </persName> 
+          </person>
+              <person>
+                 <persName xml:id="ISA-01">
+                    <forename>Isabelle</forename>
+                    <nameLink></nameLink>
+                    <surname></surname>
+                    <roleName>spouse of Eudes de Gonesse</roleName>
+                 </persName>
+              </person>
+          <person>
+             <persName xml:id="MAR-01">
+                <forename>Maria</forename>
+                <nameLink></nameLink>
+                <surname></surname>
+                <roleName></roleName>
+             </persName>
+          </person>
+           <person>
+             <persName xml:id="AEL-01">
+                <forename>Aelidis</forename>
+                <nameLink>of</nameLink>
+                <surname>Gonesse</surname>
+                <roleName></roleName>
+             </persName>
+          </person>
+          <person>
+             <persName xml:id="ROB-01">
+                <forename>Robert</forename>
+                <nameLink></nameLink>
+                <surname></surname>
+                <roleName></roleName>
+              </persName>
+           </person>   
+              <person>
+                 <persName xml:id="PHI-01">
+                    <forename>Philippe</forename>
+                    <nameLink>of</nameLink>
+                    <surname>VILLANOVA</surname>
+                    <roleName>vice dominus silvanectensis</roleName>
+                 </persName>
+              </person>
+       </listPerson>
+       <listOrg>
+            <org>
+               <orgName xml:id="CHAALIS">religious men, abbot and convent of Chaalis abbey</orgName>
+               <desc>religious men, abbot and convent of Chaalis abbey is considered as an religious institution or organism</desc>
+            </org>
+       </listOrg>
+       <listPlace>
+             <place xml:id="DAM-01">
+                <placeName>Dammartin</placeName>
+                <location>
+                   <geo>49° 03′ 14″ N, 2° 40′ 54″ E</geo>
+                   <!-- lat long -->
+                </location>
+                <idno type="wikidata">Q250742</idno>
+             </place>
+          <place xml:id="BER-01">
+             <placeName>Clos de Barron</placeName>
+             <location>
+                <geo>49° 10′ 26″ N, 2° 43′ 49″ E</geo>
+                <!-- lat long -->
+             </location>
+             <idno type="wikidata">Q1346788</idno>
+          </place>
+       </listPlace>
+       <listRelation>
+          <relation name="HasBuyer" category="economic" active="#EUD-01" passive="#GUI-01"/> 
+          <relation name="HasDonor" category="economic" active="#EUD-01" passive="#CHAALIS"/> 
+          <relation name="HasDonor" category="economic" active="#ISA-01" passive="#CHAALIS"/> 
+          <relation name="HasSpouse" category="kinship" active="#EUD-01" passive="#ISA-01"/> 
+          <relation name="HasChild" category="kinship" active="#HUB-01" passive="#GUI-00"/>
+          <relation name="HasChild" category="kinship" active="#MAR-01" passive="#GUI-01"/>
+          <relation name="HasSibling" category="kinship" mutual="#AEL-01 #GUI-01"/>
+          <relation name="HasChild" category="kinship" mutual="#AEL-01 #ROB-01"/>
+          <relation name="hasSibling-in-law" category="kinship" mutual="#MAR-01 #EUD-01"/>
+          <relation name="HasChild" category="kinship" mutual="#MAR-01 #GUI-01"/>
+          <relation name="HasLegalDispute" category="legal" active="#MAR-01 #GUI-01 #ROB-01" passive="#GUI-00 #EUD-01"/>
+          <relation name="HasLegalDispute" category="legal" active="#PHI-01" passive="CHAALIS"/>
+       </listRelation>
+     </sourceDesc>
+    </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+            <div>
+               <head> De Verrone
+                  <fw type="pageNum" place="top-right">LXVI</fw>
+                  <fw type="pageNum" place="margin-right">74</fw>
+                </head>
+            </div>
+            <div n="118" type="chart">
+               <lb/> <note place="margin-left">118</note><p><add>De trib<ex>u</ex>s dena</add></p>
+               <lb/><p><add>riis census quictatis quos debebat Clau</add></p>
+               <lb/><p><persName ref="#ADA-01">Ade <choice><am>silvanecte&#xE7B2;</am><ex>silvanectensis</ex></choice> <choice><am>e&#xE665;i</am><ex>episcopus</ex></choice></persName> <choice><am>qd</am><ex>quod</ex></choice> <add>sum de Verrone</add></p>
+               <lb/><p><persName ref="#GUI-00"><choice><am>guill&#x1E61;</am><ex>guillermus</ex></choice></persName><choice><am>cl&er;icus</am><ex>clericus</ex></choice> <choice><am>fili</am><ex>filius</ex></choice> <choice><am>qu&omacr;dam</am><ex>quondam</ex></choice> <persName ref="#HUB"><choice><am>hub&er;ti</am><ex>huberti</ex></choice> sellon</persName> de</p><note place="margin-right">IIII</note>
+               <lb/><p><placeName ref="#DAM-01">Dammartin</placeName> quittavit in <choice><am>&#xA751;petu&#x016A;</am><ex>perpetuum</ex></choice> <choice><am>absq&szlig;</am><ex>absqus</ex></choice> ulla</p>
+               <lb/><p><choice><am>retenti&Omacr;e</am><ex>retentione</ex></choice> <persName ref="#EUD-01">odoni de gonessa</persName> et <choice><am>he&eacute;dib&szlig;</am><ex>heredibus</ex></choice> <choice><am>ej&usmod;</am><ex>ejus</ex></choice> tres <choice><am>d.</am><ex>denarium</ex></choice></p> 
+               <lb/><p>annui redditus de <choice><am>duob&szlig;</am><ex>duobus</ex></choice> arpentiis <choice><am>&Zstrok;</am><ex>et</ex></choice> dimi</p>
+               <lb/><p>dio <choice><am>vinear&umacr;</am><ex>vinearum</ex></choice> des Groes. Quittavit et idem guil</p>
+               <lb/><p>lermus predicto <persName ref="#EUD-01">odoni</persName> tres arpennos vinearum et </p>
+               <lb/><p><choice><am>un&umacr;</am><ex>unum</ex></choice> <choice><am>quarteri&umacr;</am><ex>quarterium</ex></choice> sitos in <choice><am>eod&emacr;</am><ex>eodem</ex></choice> loco quos tene</p>
+               <lb rend="hyphen"/><p>bat de eo in <choice><am>feod&umacr;</am><ex>feodum</ex></choice>. Dedit et predictes <persName ref="GUI">G.</persName> eidem <persName ref="#EUD">Odoni</persName></p>
+               <lb/><p>tria quarteria <choice><am>t&er;re</am><ex>terre</ex></choice> que idem <choice><am>guill&sacute;</am><ex>guillermus</ex></choice> jure here</p>
+               <lb/><p>ditario possidebat juncta vineis des groes. </p>
+               <lb/><p>Anno m. CC. XXX. Tertio<add><choice><am>Qd'</am> <ex>Quod</ex> </choice>Maria et filii <choice><am>ei&usmod;</am><ex>eii</ex></choice></add></p>
+               <lb/><p><add>soror <persName ref="ISA-01"><choice><am>Ysabell&usmod;</am><ex>Ysabellus</ex></choice> uxorum <choice><am>d&nbar;i</am><ex>domini</ex></choice> Odonis de Gonessa</persName></add></p>
+               <lb/><p><add>quitaverint nobis quicquid <choice><am>reclamab&amacr;t</am><ex>reclamabant</ex></choice></add></p>
+            </div>
+         <pb/>
+            <div>
+               <head> De Verrone LXVI</head>
+               <note place="margin-right">74</note>
+            </div>
+            <div n="119" type="chart">
+               <lb/><note place="margin-left">V</note><note place="margin-right">119</note>             
+               <lb/><p><persName ref="#ADA-01">Ade <choice><am>silvanecte&#xE7B2;</am><ex>silvanectensis</ex></choice> <choice><am>e&#xE665;i</am><ex>episcopus</ex></choice> </persName><add>in clauso de Verron</add></p>
+               <lb/><p><choice><am>Qd'</am> <ex>Quod</ex> </choice><persName ref="#MAR-01">Maria</persName> soror uxoris <choice><am>d&nbar;i</am><ex>domini</ex></choice> <persName>odonis de gonessa</persName></p> 
+               <lb/><p><choice><am>&Zstrok;</am><ex>et</ex></choice> <persName ref="#GUI-01">guillermus</persName> filius eiusdem <persName ref="#MAR-01">marie</persName> <choice><am>necn&omacr;</am> <ex>necnon</ex> </choice>et <persName><choice><am>robert&usmod;</am><ex>robertus</ex></choice></persName> </p>
+               <lb/><p><choice><am>fili&usmod;</am><ex>filius</ex></choice> <persName ref="#AEL-01">aelipdis</persName> <choice><am>quond&amacr;</am><ex>quondam</ex></choice> sororis dicti <choice><am>d&nbar;i</am><ex>domini</ex></choice>  <persName ref="#EUD-01">odonis</persName> </p>
+               <lb/><p>quittaverunt quicquid <choice><am>he&eacute;bant</am><ex>habebant</ex></choice> et habere po</p>
+               <lb rend="hyphen"/><p>terant aut <choice><am>sperab&amacr;t</am> <ex>sperabant</ex> </choice>in toto clauso <choice><am>vinea&rum;</am><ex>vinearum</ex></choice></p> 
+               <lb/><p><choice><ex>sitar&umacr;</ex><ex>sitarum</ex></choice> juxta <placeName ref="BER-01">berron</placeName>. <choice><am>&Pflour;miser&umacr;t</am><ex>Promiserunt</ex></choice> <choice><am>eti&amacr;</am><ex>etiam</ex></choice> dicti <persName><choice><am>m&amacr;</am><ex>maria</ex></choice></persName></p>
+               <lb/><p><persName ref="#GUI-01"><choice><am>guill&sacute;</am><ex>guillermus</ex></choice></persName> et <persName ref="ROB-01"><choice><am>robert&usmod;</am><ex>robertus</ex></choice></persName> fide <choice><am>corporalit&er;</am><ex>corporaliter</ex></choice> <choice><am>&pbardes;stita</am><ex>prestita</ex></choice> quod <choice><am>&pbardes;</am><ex>per</ex></choice> se </p>
+               <lb/><p>aut <choice><am>&pbardes;</am><ex>per</ex></choice> alium in <choice><am>dt&omacr;</am><ex>dicto</ex></choice> clausio nichil de cetero re</p>
+               <lb/><p>clamabunt. Anno m. CC. XXXIII.<add>Domini</add></p>
+            </div>
+
+            <div n="120" type="chart">
+              <lb/> <note place="margin-left">VI</note> <p>Ego <persName ref="#PHI">philippus </persName><add>Philippi de Villa nova</add></p><note place="margin-right">120</note>
+              <lb/>  <p><persName ref="#PHI-01">de villa nova</persName> vice <choice><am>d&umacr;s</am> <ex>dominus</ex> </choice> <choice><am>silvanecte&#xE7B2;</am><ex>silvanectensis</ex></choice> <choice><am>not&umacr;</am><ex>notum</ex></choice></p>
+              <lb/>  <p>facio <choice><am>qd'</am><ex>quod</ex></choice> <choice><am>c&umacr;</am> <ex>cum</ex> </choice> ego et mater mea et <choice><am>fr&emacr;s</am> <ex>fratres</ex> </choice> mei mo</p>
+              <lb/>  <p>lestaremus <orgName ref="#CHAALIS">uiros religiosos <choice><am>abb&edot;m</am> <ex>abbatem</ex> </choice> et <choice><am>conv&emacr;</am> <ex>conven</ex> </choice></orgName></p>
+               <lb rend="hyphen"/> <p><orgName ref="#CHAALIS"><choice><am>t&umacr;</am> <ex>tum</ex> </choice></orgName> <choice><am>su&pbardes;</am> <ex>super</ex> </choice> <choice><am>qdam</am> <ex>quondam</ex> </choice> pecia vinee sita in suo clauso</p> 
+               <lb/> <p>de <placeName>berron</placeName> a <choice><am>dn&omacr;</am> <ex>domino</ex> </choice> <persName ref="#EUD-01">odone de gonessa</persName> et <persName ref="#ISA-01">uxore</persName> </p>
+               <lb/> <p>sua eisdem in puram et <choice><am>&#xA751;petuam</am><ex>perpetuam</ex></choice> elemosi</p> 
+               <lb/> <p><choice><am>n&amacr;</am> <ex>nam</ex> </choice> collata. <choice><am>Tand&emacr;</am> <ex>Tandem</ex> </choice> <choice><am>boni&rum;</am> <ex>bonirum</ex> </choice> <choice><am>uiro&rum;</am> <ex>uirorum</ex> </choice> testimo</p>
+               <lb/> <p> nio <choice><am>didicim&usmod;</am> <ex>didicimus</ex> </choice> nos nichil juris habere <choice><am>penit&er;</am> <ex>peniter</ex> </choice></p> 
+               <lb/> <p>in eadem dude nos sano usi <choice><am>&condes;silio</am> <ex>consilio</ex> </choice> <choice><am>eisd&emacr;</am> <ex>eisdem</ex> </choice></p> 
+               <lb/> <p><orgName ref="#CHAALIS"><choice><am>abbi&ibreve;</am> <ex>abbati</ex> </choice>et conventui</orgName> quicquid <choice><am>su&pbardes;</am> <ex>super</ex> </choice> <choice><am>dt&amacr;m</am> <ex>dictam</ex> </choice> vi</p>
+               <lb rend="hyphen"/> <p>neam <choice><am>reclamaveram&us;</am><ex>reclamaveramus</ex></choice> in pace <choice><am>dimisim&us;</am><ex>dimisimus</ex></choice> </p>
+               <lb/> <p><choice><am>libe&er;</am> <ex>libere</ex> </choice> et quiete in <choice><am>&#xA751;petu&umacr;</am> <ex>perpetuum</ex></choice> <choice><am>possidend&umacr;</am><ex>possidendum</ex></choice> Datum</p> 
+               <lb/> <p>anno <choice><am>d&#xE1B8;</am><ex>domini</ex></choice> m. CC. XL <choice><ex>qrto</ex><ex>quarto</ex></choice>.</p>
+            </div>
+         
+       </body>
+      
+   </text>
+</TEI>
+
