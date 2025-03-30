@@ -13,7 +13,9 @@ L'étape initiale de modélisation des données consistait à mettre en œuvre l
 
 - et en annexes la liste des individus et des lieux dans une page index et le tableau des relations entre eux.
 
-Dans ce projet XSLT, deux folios du cartulaire ms latin 11003 ont été sélectionnés. La transcription des folios du cartulaire est représentée sur trois colonnes, avec le texte principal dans la colonne centrale et les notes marginales nombreuses dans les colonnes de gauche et de droite. Les abréviations restituées sont signalées en italique. Les individus sont balisés avec <persName>, les lieux avec <place> et l'institution de l'abbaye avec <org>.
+Dans ce projet XSLT, deux folios du cartulaire ms latin 11003 ont été sélectionnés. La transcription des folios du cartulaire est représentée sur trois colonnes, avec le texte principal dans la colonne centrale et les notes marginales nombreuses dans les colonnes de gauche et de droite. 
+Les abréviations restituées sont signalées en italique. A ce sujet, je m'aperçois que l'encodage initial n'est pas optimal : au lieu d'écrire par exemple <choice><am>retenti&Omacr;e</am><ex>retentione</ex></choice>, j'aurais du noter <choice>retenti<am>&Omacr;e</am><ex>one</ex></choice>, ce qui m'aurait perims de mettre uniquement le rendu de l'abbréviation en italique. Ici l'ensemble du mot dans lequel se touve l'abbréviation est en italique.
+Les individus sont balisés avec <persName>, les lieux avec <place> et l'institution de l'abbaye avec <org>.
 
 Les fichiers encodés en TEI sont nommés Ex1_Paris_BnF_Latin_11003_Description_LN et Ex2_Paris_BnF_Latin_11003_Description_LN. Ils sont associés aux deux images Manuscrit_fragment_1 et Manuscrit_fragment_2.
 
