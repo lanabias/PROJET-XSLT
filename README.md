@@ -25,7 +25,7 @@ Structure de l'arborescence des fichiers :
 - Les fichiers XML-TEI, les images, le fichier de transformation en XML-XSLT se trouvent à la racine du dossier. Le fichier menota_entities permet de transcrire les signes d'abbréviation dans les fichiers XML-TEI.
 - Dans le répertoire out, se trouvent le schéma RNG et le fichier html du fichier source ODD simplifié qui a permis de le générer.
 - Dans le même répertoire out se trouvent aussi les différents fichiers html qui résultent de la transformation des fichiers XML-TEI et constituent l'ossature de la mise en ligne du site web, à savoir :
-  La page d'accueil du site home.html 
+  Les deux pages d'accueil possibles du site home1.html et home2.html. Le fichier home1.html décrit les chartes du premier fichier XML, le fichier home2.html décrit les chartes du second document
   Les différents fichiers de transcription des chartes
   Le fichier de description des différents index de personne, de lieu et d'organisation
   Le fichier de tableau des relations
@@ -36,4 +36,3 @@ J'espère à terme étendre la méthode à :
 - l'ensemble du cartulaire pour éclairer les dynamiques sociales et politiques entre l'abbaye de Chaalis et les pouvoirs séculiers locaux au Moyen Âge ou entre les nobles entre eux.
 
 - la modélisation prosopographique du corpus de ma thèse intitulée « Pour lui aider à soustenir son estat » : alliances, fiefs, réseaux, clientèles et partis dans l'ancienne noblesse d'Île-de-France de Philippe Auguste à Charles VII (1180-1437) (https://theses.hal.science/tel-02880019)
-
