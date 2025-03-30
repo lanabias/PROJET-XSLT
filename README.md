@@ -13,13 +13,23 @@ L'étape initiale de modélisation des données consistait à mettre en œuvre l
 
 - et en annexes la liste des individus et des lieux dans une page index et le tableau des relations entre eux.
 
+Spécificté du fichier XSLT :
 Dans ce projet XSLT, deux folios du cartulaire ms latin 11003 ont été sélectionnés. La transcription des folios du cartulaire est représentée sur trois colonnes, avec le texte principal dans la colonne centrale et les notes marginales nombreuses dans les colonnes de gauche et de droite. 
 Les abréviations restituées sont signalées en italique. A ce sujet, je m'aperçois que l'encodage initial n'est pas optimal : au lieu d'écrire par exemple <choice><am>retenti&Omacr;e</am><ex>retentione</ex></choice>, j'aurais du noter <choice>retenti<am>&Omacr;e</am><ex>one</ex></choice>, ce qui m'aurait perims de mettre uniquement le rendu de l'abbréviation en italique. Ici l'ensemble du mot dans lequel se touve l'abbréviation est en italique.
 Les individus sont balisés avec <persName>, les lieux avec <place> et l'institution de l'abbaye avec <org>.
 
 Les fichiers encodés en TEI sont nommés Ex1_Paris_BnF_Latin_11003_Description_LN et Ex2_Paris_BnF_Latin_11003_Description_LN. Ils sont associés aux deux images Manuscrit_fragment_1 et Manuscrit_fragment_2.
-
 Les relations entre individus sont contenues dans les balises <relation>. Elles sont nommées et identifiées suivant une ontologie en cours de développement par la bibliothèque d'Allemagne, dans le cadre du projet AgRelOn (Agent Relationships ontology). Elles sont de plusieurs types et rangées dans plusieurs catégories : economic (économique), kinship (parenté), legal (juridique). L'ensemble des catégories et des éléments n'ont pas été traduits.
+
+Structure de l'arborescence des fichiers :
+- Les fichiers XML-TEI, les images, le fichier de transformation en XML-XSLT se trouvent à la racine du dossier. Le fichier menota_entities permet de transcrire les signes d'abbréviation dans les fichiers XML-TEI.
+- Dans le répertoire out, se trouvent le schéma RNG et le fichier html du fichier source ODD simplifié qui a permis de le générer.
+- Dans le même répertoire out se trouvent aussi les différents fichiers html qui résultent de la transformation des fichiers XML-TEI et constituent l'ossature de la mise en ligne du site web, à savoir :
+  La page d'accueil du site home.html 
+  Les différents fichiers de transcription des chartes
+  Le fichier de description des différents index de personne, de lieu et d'organisation
+  Le fichier de tableau des relations
+  
 
 J'espère à terme étendre la méthode à :
 
