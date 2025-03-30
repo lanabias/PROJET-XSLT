@@ -9,9 +9,9 @@ La source primaire utilisée est le cartulaire médiéval de l'abbaye, le manusc
 
 L'étape initiale de modélisation des données consistait à mettre en œuvre les modèles CIDOC-CRM et féodaux développés par Michele Pasin et John Bradley (2014). Mais dans un premier temps, j'ai décidé de mettre en place une chaîne simplifiée, en utilisant la TEI pour encoder le cartulaire de Chaalis et identifier les individus et les relations entre eux et XSLT pour visualiser en HTML à la fois :
 
-    la transcription des chartes du cartulaire
+- la transcription des chartes du cartulaire
 
-    et en annexes la liste des individus et des lieux dans une page index et le tableau des relations entre eux.
+- et en annexes la liste des individus et des lieux dans une page index et le tableau des relations entre eux.
 
 Dans ce projet XSLT, deux folios du cartulaire ms latin 11003 ont été sélectionnés. La transcription des folios du cartulaire est représentée sur trois colonnes, avec le texte principal dans la colonne centrale et les notes marginales nombreuses dans les colonnes de gauche et de droite. Les abréviations restituées sont signalées en italique. Les individus sont balisés avec <persName>, les lieux avec <place> et l'institution de l'abbaye avec <org>.
 
@@ -21,7 +21,7 @@ Les relations entre individus sont contenues dans les balises <relation>. Elles 
 
 J'espère à terme étendre la méthode à :
 
-    l'ensemble du cartulaire pour éclairer les dynamiques sociales et politiques entre l'abbaye de Chaalis et les pouvoirs séculiers locaux au Moyen Âge ou entre les nobles entre eux.
+- l'ensemble du cartulaire pour éclairer les dynamiques sociales et politiques entre l'abbaye de Chaalis et les pouvoirs séculiers locaux au Moyen Âge ou entre les nobles entre eux.
 
-    la modélisation prosopographique du corpus de ma thèse intitulée « Pour lui aider à soustenir son estat » : alliances, fiefs, réseaux, clientèles et partis dans l'ancienne noblesse d'Île-de-France de Philippe Auguste à Charles VII (1180-1437) (https://theses.hal.science/tel-02880019)
+- la modélisation prosopographique du corpus de ma thèse intitulée « Pour lui aider à soustenir son estat » : alliances, fiefs, réseaux, clientèles et partis dans l'ancienne noblesse d'Île-de-France de Philippe Auguste à Charles VII (1180-1437) (https://theses.hal.science/tel-02880019)
 
