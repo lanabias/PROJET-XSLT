@@ -36,8 +36,7 @@
                   <country>France</country>
                   <settlement>Paris</settlement>
                   <repository xml:lang="fr">Bibliothèque nationale de France</repository>
-                  <idno source="bnf">Latin 11003</idno>
-                  <idno source="gallica">12148/btv1b53164669h</idno>
+                  <idno>Latin 11003</idno>
                </msIdentifier>
                <msContents>
                   <!-- First fragment of manuscript -->
@@ -65,7 +64,7 @@
                         <bibl>BnF ms. Lat 11003 n°118
                            Analysis number 114 on the website regest pages 26-27 on IHRT : https://regecart.irht.cnrs.fr/dossier-137-R1/ms-0117</bibl>
                      </msItem>
-                     <msItem n="119" class="charte" defective="false">
+                     <msItem n="119" defective="false">
                         <!-- Second charter number 119 in the first fragment  -->
                         <locus from="73v" to="74">74</locus>
                         <title type="supplied">Charter number 119</title>
@@ -77,7 +76,7 @@
                         <bibl>BnF ms. Lat 11003 n°119
                            Analysis number 115 on the website regest page 27 IHRT : http://regecart.irht.cnrs.fr/dossier-137-R1/regeste-140-0117</bibl>
                      </msItem>
-                     <msItem n="120" class="charte" defective="false">
+                     <msItem n="120" defective="false">
                         <!-- Third charter number 120 in the first fragment  -->
                         <locus from="74" to="74">74</locus>
                         <title type="supplied">Charter numbr 120</title>
@@ -154,7 +153,6 @@
                      </p>
                   </surrogates>
                   <listBibl>
-                     
                      <head>Works consulted</head>
                      <bibl>
                         «  Cartulaire de l'abbaye Notre-Dame de Chaalis, Chartularium monasterii Caroli Loci (Regestes) », 
@@ -283,17 +281,11 @@
           <relation name="hasSibling-in-law" category="kinship" mutual="#MAR-01 #EUD-01"/>
           <relation name="HasChild" category="kinship" mutual="#MAR-01 #GUI-01"/>
           <relation name="HasLegalDispute" category="legal" active="#MAR-01 #GUI-01 #ROB-01" passive="#GUI-00 #EUD-01"/>
-          <relation name="HasLegalDispute" category="legal" active="#PHI-01" passive="#CHAALIS"/>
+          <relation name="HasLegalDispute" category="legal" active="#PHI-01" passive="CHAALIS"/>
        </listRelation>
      </sourceDesc>
     </fileDesc>
    </teiHeader>
-   <facsimile xml:id="facs_73v">
-      <graphic url="12148/btv1b53164669h/f154"/>
-   </facsimile>
-   <facsimile xml:id="facs_74r">
-      <graphic url="12148/btv1b53164669h/f155"/>
-   </facsimile>
    <text>
       <body>
          <pb/>
@@ -307,18 +299,18 @@
                <lb/> <note place="margin-left">118</note><p><add>De trib<ex>u</ex>s dena</add></p>
                <lb/><p><add>riis census quictatis quos debebat Clau</add></p>
                <lb/><p><persName ref="#ADA-01">Ade <choice><am>silvanecte&#xE7B2;</am><ex>silvanectensis</ex></choice> <choice><am>e&#xE665;i</am><ex>episcopus</ex></choice></persName> <choice><am>qd</am><ex>quod</ex></choice> <add>sum de Verrone</add></p>
-               <lb/><p><persName ref="#GUI-00"><choice><am>guill&#x1E61;</am><ex>guillermus</ex></choice></persName><choice><am>cl&er;icus</am><ex>clericus</ex></choice> <choice><am>fili</am><ex>filius</ex></choice> <choice><am>qu&omacr;dam</am><ex>quondam</ex></choice> <persName ref="#HUB-01"><choice><am>hub&er;ti</am><ex>huberti</ex></choice> sellon</persName> de</p><note place="margin-right">IIII</note>
+               <lb/><p><persName ref="#GUI-00"><choice><am>guill&#x1E61;</am><ex>guillermus</ex></choice></persName><choice><am>cl&er;icus</am><ex>clericus</ex></choice> <choice><am>fili</am><ex>filius</ex></choice> <choice><am>qu&omacr;dam</am><ex>quondam</ex></choice> <persName ref="#HUB"><choice><am>hub&er;ti</am><ex>huberti</ex></choice> sellon</persName> de</p><note place="margin-right">IIII</note>
                <lb/><p><placeName ref="#DAM-01">Dammartin</placeName> quittavit in <choice><am>&#xA751;petu&#x016A;</am><ex>perpetuum</ex></choice> <choice><am>absq&szlig;</am><ex>absqus</ex></choice> ulla</p>
                <lb/><p><choice><am>retenti&Omacr;e</am><ex>retentione</ex></choice> <persName ref="#EUD-01">odoni de gonessa</persName> et <choice><am>he&eacute;dib&szlig;</am><ex>heredibus</ex></choice> <choice><am>ej&usmod;</am><ex>ejus</ex></choice> tres <choice><am>d.</am><ex>denarium</ex></choice></p> 
                <lb/><p>annui redditus de <choice><am>duob&szlig;</am><ex>duobus</ex></choice> arpentiis <choice><am>&Zstrok;</am><ex>et</ex></choice> dimi</p>
                <lb/><p>dio <choice><am>vinear&umacr;</am><ex>vinearum</ex></choice> des Groes. Quittavit et idem guil</p>
                <lb/><p>lermus predicto <persName ref="#EUD-01">odoni</persName> tres arpennos vinearum et </p>
                <lb/><p><choice><am>un&umacr;</am><ex>unum</ex></choice> <choice><am>quarteri&umacr;</am><ex>quarterium</ex></choice> sitos in <choice><am>eod&emacr;</am><ex>eodem</ex></choice> loco quos tene</p>
-               <lb rend="hyphen"/><p>bat de eo in <choice><am>feod&umacr;</am><ex>feodum</ex></choice>. Dedit et predictes <persName ref="#GUI-01">G.</persName> eidem <persName ref="#EUD-01">Odoni</persName></p>
+               <lb rend="hyphen"/><p>bat de eo in <choice><am>feod&umacr;</am><ex>feodum</ex></choice>. Dedit et predictes <persName ref="GUI">G.</persName> eidem <persName ref="#EUD">Odoni</persName></p>
                <lb/><p>tria quarteria <choice><am>t&er;re</am><ex>terre</ex></choice> que idem <choice><am>guill&sacute;</am><ex>guillermus</ex></choice> jure here</p>
                <lb/><p>ditario possidebat juncta vineis des groes. </p>
                <lb/><p>Anno m. CC. XXX. Tertio<add><choice><am>Qd'</am> <ex>Quod</ex> </choice>Maria et filii <choice><am>ei&usmod;</am><ex>eii</ex></choice></add></p>
-               <lb/><p><add>soror <persName ref="#ISA-01"><choice><am>Ysabell&usmod;</am><ex>Ysabellus</ex></choice> uxorum <choice><am>d&nbar;i</am><ex>domini</ex></choice> Odonis de Gonessa</persName></add></p>
+               <lb/><p><add>soror <persName ref="ISA-01"><choice><am>Ysabell&usmod;</am><ex>Ysabellus</ex></choice> uxorum <choice><am>d&nbar;i</am><ex>domini</ex></choice> Odonis de Gonessa</persName></add></p>
                <lb/><p><add>quitaverint nobis quicquid <choice><am>reclamab&amacr;t</am><ex>reclamabant</ex></choice></add></p>
             </div>
          <pb/>
@@ -334,14 +326,14 @@
                <lb/><p><choice><am>fili&usmod;</am><ex>filius</ex></choice> <persName ref="#AEL-01">aelipdis</persName> <choice><am>quond&amacr;</am><ex>quondam</ex></choice> sororis dicti <choice><am>d&nbar;i</am><ex>domini</ex></choice>  <persName ref="#EUD-01">odonis</persName> </p>
                <lb/><p>quittaverunt quicquid <choice><am>he&eacute;bant</am><ex>habebant</ex></choice> et habere po</p>
                <lb rend="hyphen"/><p>terant aut <choice><am>sperab&amacr;t</am> <ex>sperabant</ex> </choice>in toto clauso <choice><am>vinea&rum;</am><ex>vinearum</ex></choice></p> 
-               <lb/><p><choice><ex>sitar&umacr;</ex><ex>sitarum</ex></choice> juxta <placeName ref="#BER-01">berron</placeName>. <choice><am>&Pflour;miser&umacr;t</am><ex>Promiserunt</ex></choice> <choice><am>eti&amacr;</am><ex>etiam</ex></choice> dicti <persName><choice><am>m&amacr;</am><ex>maria</ex></choice></persName></p>
-               <lb/><p><persName ref="#GUI-01"><choice><am>guill&sacute;</am><ex>guillermus</ex></choice></persName> et <persName ref="#ROB-01"><choice><am>robert&usmod;</am><ex>robertus</ex></choice></persName> fide <choice><am>corporalit&er;</am><ex>corporaliter</ex></choice> <choice><am>&pbardes;stita</am><ex>prestita</ex></choice> quod <choice><am>&pbardes;</am><ex>per</ex></choice> se </p>
+               <lb/><p><choice><ex>sitar&umacr;</ex><ex>sitarum</ex></choice> juxta <placeName ref="BER-01">berron</placeName>. <choice><am>&Pflour;miser&umacr;t</am><ex>Promiserunt</ex></choice> <choice><am>eti&amacr;</am><ex>etiam</ex></choice> dicti <persName><choice><am>m&amacr;</am><ex>maria</ex></choice></persName></p>
+               <lb/><p><persName ref="#GUI-01"><choice><am>guill&sacute;</am><ex>guillermus</ex></choice></persName> et <persName ref="ROB-01"><choice><am>robert&usmod;</am><ex>robertus</ex></choice></persName> fide <choice><am>corporalit&er;</am><ex>corporaliter</ex></choice> <choice><am>&pbardes;stita</am><ex>prestita</ex></choice> quod <choice><am>&pbardes;</am><ex>per</ex></choice> se </p>
                <lb/><p>aut <choice><am>&pbardes;</am><ex>per</ex></choice> alium in <choice><am>dt&omacr;</am><ex>dicto</ex></choice> clausio nichil de cetero re</p>
                <lb/><p>clamabunt. Anno m. CC. XXXIII.<add>Domini</add></p>
             </div>
 
             <div n="120" type="chart">
-              <lb/> <note place="margin-left">VI</note> <p>Ego <persName ref="#PHI-01">philippus </persName><add>Philippi de Villa nova</add></p><note place="margin-right">120</note>
+              <lb/> <note place="margin-left">VI</note> <p>Ego <persName ref="#PHI">philippus </persName><add>Philippi de Villa nova</add></p><note place="margin-right">120</note>
               <lb/>  <p><persName ref="#PHI-01">de villa nova</persName> vice <choice><am>d&umacr;s</am> <ex>dominus</ex> </choice> <choice><am>silvanecte&#xE7B2;</am><ex>silvanectensis</ex></choice> <choice><am>not&umacr;</am><ex>notum</ex></choice></p>
               <lb/>  <p>facio <choice><am>qd'</am><ex>quod</ex></choice> <choice><am>c&umacr;</am> <ex>cum</ex> </choice> ego et mater mea et <choice><am>fr&emacr;s</am> <ex>fratres</ex> </choice> mei mo</p>
               <lb/>  <p>lestaremus <orgName ref="#CHAALIS">uiros religiosos <choice><am>abb&edot;m</am> <ex>abbatem</ex> </choice> et <choice><am>conv&emacr;</am> <ex>conven</ex> </choice></orgName></p>

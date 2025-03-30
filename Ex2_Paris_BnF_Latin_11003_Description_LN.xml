@@ -34,13 +34,12 @@
                   <country>France</country>
                   <settlement>Paris</settlement>
                   <repository xml:lang="fr">Bibliothèque nationale de France</repository>
-                  <idno source="bnf">Latin 11003</idno>
-                  <idno source="gallica">12148/btv1b53164669h</idno>
+                  <idno>Latin 11003</idno>
                </msIdentifier>
                <msContents>
                   <msItem n="2" class="fragment" defective="false">
                      <!-- First fragment of manuscript -->
-                     <locus from="153v" to="154"/>
+                     <locus from="140v" to="141"/>
                      <author xml:lang="fr">Prevost</author>
                      
                      <title type="uniform" xml:lang="fr">Cartulaire de l'abbaye de Chaalis</title>
@@ -53,41 +52,41 @@
                      
                      <msItem n="467" class="charte" defective="false">
                         <!-- First charter number 118 in the first fragment  -->
-                        <locus from="153v°" to="153v"/>
+                        <locus from="140v°" to="141"/>
                         <title type="supplied"> Charter number 467    </title>
                         <bibl>BnF ms. Lat 11003 n°467
-                           Analysis number 467 on the website regest pages 111 on IHRT : https://regecart.irht.cnrs.fr/dossier-137-R1/ms-0117</bibl>
+                           Analysis number 466 on the website regest pages 111 on IHRT : https://regecart.irht.cnrs.fr/dossier-137-R1/ms-0117</bibl>
                      </msItem>
-                     <msItem n="468" class="charte" defective="false">
+                     <msItem n="468" defective="false">
                         <!-- Second charter number 119 in the first fragment  -->
-                        <locus from="153v°" to="153v">468</locus>
+                        <locus from="140v" to="140v°">468</locus>
                         <title type="supplied">Charter number 468</title>
                         <explicit>Anno m° CC° X°  </explicit>
                         <bibl>BnF ms. Lat 11003 n°468
-                           Analysis number 468 on the website regest pages 111-112 on IHRT : https://regecart.irht.cnrs.fr/dossier-137-R1/ms-0117</bibl>
+                           Analysis number 467 on the website regest pages 111-112 on IHRT : https://regecart.irht.cnrs.fr/dossier-137-R1/ms-0117</bibl>
                      </msItem>
-                     <msItem n="469" class="charte" defective="false">
+                     <msItem n="469" defective="false">
                         <!-- Third charter number 120 in the first fragment  -->
-                        <locus from="153v°" to="153v">469</locus>
+                        <locus from="140v°" to="140v°">469</locus>
                         <title type="supplied">Charter number 469</title>
                         <bibl>BnF ms. Lat 11003 n°469
-                           Analysis number 469 on the website regest pages 112 on IHRT : https://regecart.irht.cnrs.fr/dossier-137-R1/ms-0117</bibl>
+                           Analysis number 468 on the website regest pages 112 on IHRT : https://regecart.irht.cnrs.fr/dossier-137-R1/ms-0117</bibl>
                      </msItem>
-                     <msItem n="470" class="charte" defective="false">
+                     <msItem n="470" defective="false">
                         <!-- Third charter number 120 in the first fragment  -->
-                        <locus from="153v°" to="154">470</locus>
+                        <locus from="140v°" to="141">470</locus>
                         <title type="supplied">Charter number 470</title>
                         <explicit> C m°CC°LI°</explicit>
                         <bibl>BnF ms. Lat 11003 n°470
-                           Analysis number 470 on the website regest pages 112 on IHRT : https://regecart.irht.cnrs.fr/dossier-137-R1/ms-0117</bibl>
+                           Analysis number 469 on the website regest pages 112 on IHRT : https://regecart.irht.cnrs.fr/dossier-137-R1/ms-0117</bibl>
                      </msItem>
-                     <msItem n="471" class="charte" defective="false">
+                     <msItem n="471" defective="false">
                         <!-- Third charter number 120 in the first fragment  -->
-                        <locus from="154" to="154">471</locus>
+                        <locus from="141" to="141">471</locus>
                         <title type="supplied">Charter number 471</title>
                         <explicit> m°CC°LV° </explicit>
                         <bibl>BnF ms. Lat 11003 n°471
-                           Analysis number 471 on the website regest pages 112 on IHRT : https://regecart.irht.cnrs.fr/dossier-137-R1/ms-0117</bibl>
+                           Analysis number 470 on the website regest pages 112 on IHRT : https://regecart.irht.cnrs.fr/dossier-137-R1/ms-0117</bibl>
                      </msItem>
                   </msItem>
                </msContents>
@@ -294,21 +293,16 @@
                </listPlace>
                <listRelation>
                   <relation name="HasSpouse" category="kinship" active="#RIC-01" passive="#LUC-01"/> 
-                  <relation name="HasPatron" category="carreer" active="#JEA-01" passive="#LOU-01"/>
-                  <relation name="HasPatron" category="carreer" active="#CHA-02" passive="#LOU-01"/>
-                  <relation name="HasLegalDispute" category="legal" active="#JEA-01" passive="CHAALIS"/>
+                  <relation name="HasPatron" category="carreer" active="#JEA-01 #LOU-01"/>
+                  <relation name="HasPatron" category="carreer" active="#CHA-02 #LOU-01"/>
+                  <relation name="HasLegalDispute" category="legal" active="#JEA-02" passive="CHAALIS"/>
                   <relation name="HasLegalDispute" category="legal" active="#URS-01" passive="CHAALIS"/>
                   <relation name="HasDonor" category="economic" active="#RIC-01 #LUC-01" passive="#CHAALIS"/> 
                </listRelation>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
-   <facsimile xml:id="facs_153v">
-      <graphic url="12148/btv1b53164669h/f314"/>
-   </facsimile>
-   <facsimile xml:id="facs_154">
-      <graphic url="12148/btv1b53164669h/f315"/>
-   </facsimile>
+   
    <text>
       <body>
          <pb/>
