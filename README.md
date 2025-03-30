@@ -15,4 +15,4 @@ Les relations entre individus sont contenues dans les balsies <relation>. Elles 
 
 J'espère à terme réaliser étendre la méthode à 
 - l'ensemble du cartulaire pour éclairer les dynamiques sociales et politiques entre l'abbaye de Chaalis et les pouvoirs séculiers locaux au Moyen Âge ou entre les nobles entre eux.
-- la modélisation prosopographique du corpus de ma thèse intitulée « Pour lui aider à soustenir son estat » : alliances, fiefs, réseaux, clientèles et partis dans l’ancienne noblesse d’Île-de-France de Philippe Auguste à Charles VII (1180-1437)
+- la modélisation prosopographique du corpus de ma thèse intitulée « Pour lui aider à soustenir son estat » : alliances, fiefs, réseaux, clientèles et partis dans l’ancienne noblesse d’Île-de-France de Philippe Auguste à Charles VII (1180-1437) (https://theses.hal.science/tel-02880019)
